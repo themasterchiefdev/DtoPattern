@@ -1,8 +1,8 @@
-using System;
-
-namespace DtoPattern.WebUi
+namespace DtoPattern.WebUi.ViewModels
 {
-    public class WeatherForecast
+    using System;
+
+    public class WeatherForecastViewModel
     {
 
         public DateTime Date { get; set; }
